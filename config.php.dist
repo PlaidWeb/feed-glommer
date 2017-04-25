@@ -1,0 +1,15 @@
+<?php
+
+// Sample configuration for the feed glommer
+$title = "Combined feed for all things fluffy";
+$baseURL = "https://beesbuzz.biz/";
+$feeds = array('http://beesbuzz.biz/blog/rdf.php',
+    'https://beesbuzz.biz/d/rss.php',
+    'https://beesbuzz.biz/stuff-rss.php',
+    'http://music.sockpuppet.us/feed',
+    'http://blog.sockpuppet.us/rss',
+    'http://ccmixter.org/api/query?user=fluffy&title=fluffy&f=rss',
+    'https://news.beesbuzz.biz/fof/shared.php?user=2&format=atom',
+);
+
+?>
